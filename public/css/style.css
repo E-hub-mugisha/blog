@@ -1,308 +1,10 @@
-/* --------------
-header
------------------ */
-/* .navbar-dark{
-    background-color: transparent;
-    transition: all 0.3s ease 0s;
-}
-.navbar-dark .navbar-nav .nav-link{
-    color: #fff;
-    font-size: 14px;
-    position: relative;
-    text-transform: capitalize;
-}
-.navbar-dark .navbar-nav .nav-link:hover{
-	color: #ffffff;
-}
-.navbar-dark .navbar-nav .nav-link.active{
-	font-weight: 600;
-}
-.navbar-dark .navbar-nav .nav-link::after {
-    content: '';
-    width: 0;
-    height: 3px;
-    background: #000;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-	right: 0;
-	text-align: center;
-	margin: 0 auto;
-    border-radius: 0px;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    z-index: -1;
-}
-.navbar-dark .navbar-nav .nav-link.active{
-	color: #28a9e2;
-}
-.navbar-dark .navbar-nav .nav-link.active::after {
-	width: 100%;
-	height: 42px;
-	border-radius: 100px 100px 0px 100px;
-}
 
 
-#mainNav.navbar-shrink .navbar-nav .nav-link{
-	color: #28a9e2;
+body {
+  /* font-family: Georgia, serif; */
+  scrollbar-width: thin;          /* "auto" or "thin" */
+  scrollbar-color: blue orange;   /* scroll thumb and track */ 
 }
-
-#mainNav.navbar-shrink .navbar-nav .nav-link::after{
-	background: #28a9e2;
-}
-
-#mainNav.navbar-shrink .navbar-nav .nav-link.active{
-	color: #ffffff;
-}
-
-#mainNav.navbar-shrink .navbar-brand img{
-	max-width: 130px;
-}
-.header-logo{
-  height: auto;
-  width: auto;
-}
-/*------------------------------------------------------------------
-    SECTIONS
--------------------------------------------------------------------*/
-
-/* .main-banner{
-	height: 100%;
-	position: relative; */
-    /* background-image: url('../images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg'); */
-/* } */
-
-/* .main-banner{
-	display: table;
-    width: 100%;
-	text-align: center;
-}
-.main-banner::after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #000;
-    z-index: 0;
-    opacity: .6;
-}
-.heading{
-	color: #fff;
-	display: table-cell;
-	vertical-align: middle;
-	position: relative;
-	z-index: 1;
-}
-.heading h1{
-	color: #ffffff;
-	font-weight: 700;
-	font-size: 62px;
-	text-transform: capitalize;
-}
-.heading p{
-	font-size: 18px;
-	padding: 20px 0px;
-}
-
-.heading h3{
-	color: ffffff;
-}
-
-.cd-words-wrapper {
-  display: inline-block;
-  position: relative;
-  text-align: left;
-}
-.cd-words-wrapper b {
-  display: inline-block;
-  position: absolute;
-  white-space: nowrap;
-  left: 0;
-  top: 0;
-}
-.cd-words-wrapper b.is-visible {
-  position: relative;
-}
-.no-js .cd-words-wrapper b {
-  opacity: 0;
-}
-.no-js .cd-words-wrapper b.is-visible {
-  opacity: 1;
-} */
-/* 
-.cd-headline.clip span {
-    display: inline-block;
-    padding: .2em 0;
-    color: #ffffff;
-    font-size: 30px;
-  }
-  .cd-headline.clip span b{
-      text-transform: uppercase;
-  }
-  .cd-headline.clip .cd-words-wrapper {
-    overflow: hidden;
-    vertical-align: top;
-  }
-  .cd-headline.clip .cd-words-wrapper::after {
-    
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2px;
-    height: 100%;
-    background-color: #aebcb9;
-  }
-  .cd-headline.clip b {
-    opacity: 0;
-  }
-  .cd-headline.clip b.is-visible {
-    opacity: 1;
-  }
-   */
-  
-  /* #mainNav.navbar-shrink {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      background-color: #ffffff;
-      -webkit-animation: fadeInDown 700ms;
-      animation: fadeInDown 700ms;
-      -webkit-backface-visibility: hidden;
-      border-radius: 0px;
-      background: rgba(255, 255, 255) none repeat;
-      box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
-  }  */
-/* .social{
-    padding: 20px;
-    background: linear-gradient(10deg, rgba(71, 80, 109, 0.3), rgba(71, 80, 109, 0.3)), url('../images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  } */
-/* .social-media{
-    color: #fff;
-    padding: 20px;
-}
-.social-media h4{
-    font-size: 30px;
-} */
-
-/* ---------service---------- */
-/* .service-page{
-  background-color: #000;
-} */
-
-/* .pt-100 {
-	padding-top: 100px;
-}
-
-.pb-100 {
-	padding-bottom: 100px;
-}
-
-.ptb-100 {
-	padding: 100px 0px;
-}
-
-.pt-70 {
-	padding-top: 70px;
-}
-
-.pb-70 {
-	padding-bottom: 70px;
-}
-
-.ptb-70 {
-	padding: 70px 0px;
-}
-
-#services .title {
-	font-size: 46px;
-	color: #000000;
-	font-weight: 600;
-}
-
-#services .title span {
-	font-size: 46px;
-	color: #FF5722;
-	font-weight: 600;
-}
-
-#services .btn-primary {
-	color: #fff;
-	background-color: #FF5722;
-	border: none;
-	font-size: 14px;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	padding: 12px 20px;
-	min-width: 150px;
-	transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-webkit-transition: all 0.5s ease;
-	-ms-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-}
-
-.btn-primary:hover {
-	-webkit-box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
-	box-shadow: 0 5px 9px -4px rgb(0 0 255 / 65%);
-}
-
-.card-items .card {
-	position: relative;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-direction: column;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-color: #fff;
-	background-clip: border-box;
-	border: none;
-	border-radius: .25rem;
-	box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
-	margin-bottom: 30px;
-}
-
-.card-items .card .card-body i {
-	border-radius: 6px;
-	font-size: 31px;
-	color: #ff5722;
-	background-color: #ff57221c;
-	width: 50px;
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.card-items .card .card-body .card-title {
-	margin-bottom: .75rem;
-	margin-top: 26px;
-	margin-bottom: 15px;
-}
- */
-
-
-
-/* .we-do{
-  background: rgb(255,255,255);
-  background: linear-gradient(90deg, rgb(197, 196, 196) 50%, rgba(9,9,121,0) 78%), url('../images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-} */
-/* .we-card{
-  background-color: transparent;
-  border: 2px dotted #ff5722;
-  border-radius:  20px  20px;
-} */
-
 
 /* Sections Header
 --------------------------------*/
@@ -664,7 +366,7 @@ header
 #hero h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
-  font-size: 56px;
+  font-size: 34px;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -809,6 +511,7 @@ header
     background-attachment: fixed;
   }
 }
+
 /* #about:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
@@ -1342,6 +1045,14 @@ header
   color: #f82249;
   text-decoration: none;
 }
+#footer .quick-links a{
+  color: #060c22;
+  text-decoration: none;
+  padding: 5px;
+}
+#footer .quick-links i{
+  color: #f82249;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -1465,13 +1176,6 @@ header
 	/* margin: 10px; */
 }
 
-#group .img {
-	width: 30%;
-	height: 15%;
-	
-	/* margin: 10px; */
-	border: 1px solid white;
-}
 
 #result .img{
 	width: 100%;
@@ -1480,15 +1184,215 @@ header
 #new_updates{
   padding: 5%;
 }
-#group .pic a{
-  text-decoration: none;
-  font-size: 16px;
-}
-#group .pic{
-  border: 1px solid #060c22;
-  height: 30%;
-}
-#group .pic .img{
-  height: 100%;
+
+
+
+
+
+.title {
+  color: #101522;
+  margin-bottom: 30px;
+  position: relative
 }
 
+.title::before {
+  position: absolute;
+  left: -29px;
+  top: 0;
+  height: 20px;
+  width: 20px;
+  transform: rotate(45deg);
+  background-color: #f82249;
+  box-shadow: 0px 4px 4px 0px #aaa;
+  border-radius: 4px;
+  content: ''
+}
+
+.title::after {
+  position: absolute;
+  left: -19px;
+  top: 25px;
+  height: 14px;
+  width: 14px;
+  transform: rotate(45deg);
+  background-color: #f82249;
+  box-shadow: 0px 4px 4px 0px #aaa;
+  border-radius: 4px;
+  content: ''
+}
+
+.services {
+  padding: 40px;
+  position: relative
+}
+
+.services .square {
+  height: 100px;
+  width: 100px;
+  margin: 30px auto 40px;
+  position: relative;
+  border-radius: 15px;
+  transform: rotate(45deg);
+  padding: 10px;
+  background-color: #f82249;
+  box-shadow: 0px 0px 27px 0px #ccc;
+  border: 2px dotted #eaf3fa
+}
+
+.square i {
+  transform: rotate(315deg);
+  display: block;
+  color: #eaf3fa;
+  font-size: 40px;
+  padding-top: 17px;
+  padding-right: 14px
+}
+
+.services .square::before {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  background-color: #101522;
+  content: ''
+}
+
+.services .square::after {
+  position: absolute;
+  left: 50px;
+  top: 66px;
+  width: 1px;
+  height: 88%;
+  background-color: #101522;
+  content: '';
+  transform: rotate(90deg)
+}
+
+.services .serv .num {
+  width: 60px;
+  height: 60px;
+  background-color: #f82249;
+  box-shadow: 0px 0px 15px 0px #00a9d3;
+  margin: -38px auto 15px auto;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 30px;
+  padding-top: 7px;
+  border: 1px dashed
+}
+
+.services .serv h5 {
+  color: #101522
+}
+
+.services .serv p {
+  color: #777
+}
+
+.services .serv hr {
+  width: 30px;
+  border-top: 3px solid rgb(0 169 211)
+}
+
+
+
+/* 
+---------------------------------------------
+preloader
+--------------------------------------------- 
+*/
+
+.js-preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  opacity: 1;
+  visibility: visible;
+  z-index: 9999;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+
+.js-preloader.loaded {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@-webkit-keyframes dot {
+  50% {
+      -webkit-transform: translateX(96px);
+      transform: translateX(96px);
+  }
+}
+
+@keyframes dot {
+  50% {
+      -webkit-transform: translateX(96px);
+      transform: translateX(96px);
+  }
+}
+
+@-webkit-keyframes dots {
+  50% {
+      -webkit-transform: translateX(-31px);
+      transform: translateX(-31px);
+  }
+}
+
+@keyframes dots {
+  50% {
+      -webkit-transform: translateX(-31px);
+      transform: translateX(-31px);
+  }
+}
+
+.preloader-inner {
+  position: relative;
+  width: 142px;
+  height: 40px;
+  background: #fff;
+}
+
+.preloader-inner .dot {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 12px;
+  left: 15px;
+  background: #ff695f;
+  border-radius: 50%;
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  -webkit-animation: dot 2.8s infinite;
+  animation: dot 2.8s infinite;
+}
+
+.preloader-inner .dots {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  margin-top: 12px;
+  margin-left: 31px;
+  -webkit-animation: dots 2.8s infinite;
+  animation: dots 2.8s infinite;
+}
+
+.preloader-inner .dots span {
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-left: 16px;
+  background: #ff695f;
+  border-radius: 50%;
+}
