@@ -5,9 +5,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
         <title>HOMIEZ</title>
-        
-        <link href="./images/logo.png" rel="icon">
-        <link href="./images/logo.png" rel="apple-touch-icon">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="./images/favicon.jpg" rel="icon">
+        <link href="./images/favicon.jpg" rel="apple-touch-icon">
         <!-- Fonts -->
         <script src="https://kit.fontawesome.com/a729743ac6.js" crossorigin="anonymous"></script>
         <!-- <script src="https://use.fontawesome.com/d7d3209928.js"></script> -->
@@ -32,7 +32,7 @@
     
     <body class="antialiased ">
         <!-- ***** Preloader Start ***** -->
-        <div id="js-preloader" class="js-preloader">
+        <!-- <div id="js-preloader" class="js-preloader">
             <div class="preloader-inner">
                 <span class="dot"></span>
                 <div class="dots">
@@ -41,7 +41,7 @@
                     <span></span>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- ***** Preloader End ***** -->
         <!-- ======= Header ======= -->
         <header id="header" class="d-flex align-items-center ">
@@ -118,7 +118,7 @@
 <!--  -->
 
         
-        <section id="services">
+        <!-- <section id="services">
             <div class="services pd">
                 <div class="container" data-aos="zoom-in">
                     <h3 class="section-header title">Services</h3>
@@ -141,13 +141,13 @@
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                             </div>
                         </div>
-                        <!-- <div class="col-md-3">
+                        <div class="col-md-3">
                             <div class="square"><i class="fa fa-globe"></i></div>
                             <div class="serv">
                                 <h5>Hosting service</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                             </div>
-                        </div> -->
+                        </div> 
                         <div class="col-md-4">
                             <div class="square"><i class="fa fa-camera"></i></div>
                             <div class="serv">
@@ -158,8 +158,70 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+        <section id="services" class="service_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5">
+                       <div class="about_content">
+                            <div class="background_layer"></div>
+                            <div class="layer_content">
+                                <div class="section_title">
+                                    <h5>HOMIEZ</h5>
+                                    <h2>what <strong>we offer</strong></h2>
+                                    <div class="heading_line"><span></span></div>
+                                    <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <a href="#contact">Let's talk<i class="fa fa-long-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="service_box">
+                            <div class="service_container">
+                                <div class="background_layer"></div>
+                                <div class="layer_content">
+                                    <div class="service_card container">
+                                        <div class="services row"> 
+                                            <div class="col-md-4 service_section">
+                                                <div class="service_caption">
+                                                    <h2>Audio</h2>
+                                                    <span>Production</span><br/>
+                                                    <img class="img-circle" src="./images/1.jpg">
+                                                    
+                                                </div>
+                                                <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
+                                            </div> 
+                                            <div class="col-md-4 service_section">
+                                                <div class="service_caption">
+                                                    <h2>Video</h2>
+                                                    <span>Production</span><br/>
+                                                    <img class="img-circle" src="./images/1.jpg">
+                                                    
+                                                </div>
+                                                <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
+                                            </div>
+                                            <div class="col-md-4 service_section">
+                                                <div class="service_caption">
+                                                    <h2>Photography</h2>
+                                                    <span>services</span><br/>
+                                                    <img class="img-circle" src="./images/1.jpg">
+                                                    
+                                                </div>
+                                                <p>The team at Tectxon industry is very talented, dedicated, well organized and knowledgeable. I was most satisfied with the quality of the workmanship. They did excellent work.</p>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    </div>
+            </div>
+        </section>
         <section id="new_updates" >
             <div class="container" class="new_updates" data-aos="zoom-in">
                 <div class="section-header">
@@ -269,29 +331,68 @@
             </section>
             <!-- End Gallery Section -->
             <!-- ======= Subscribe Section ======= -->
-            <section id="subscribe" style="background: url('../images/wes-hicks-MEL-jJnm7RQ-unsplash.jpg') center center no-repeat; background-size: cover;overflow: hidden;position: relative;">
-            <div class="container" data-aos="zoom-in">
-                <div class="row">
-                    <div class="col-md-7">
-                        <div class="social-media">
-                            <div class="text-center">
-                                <h4>Feel free to reach out us:</h4>
-                                <p>Homiez is a unique place where talents and passion are attracted, selected, developed and managed in an integrated and strategic way.</p>
-                            </div>
-                            <div class="text-center">
-                                <button class="contact-btn" type="button" name="#contact">Contact us</button>
-                            </div>
-                            <div class="text-center">
-                                <h4>Our Social media</h4>
-                                <div class="social-links">
-                                    <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-                                    <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
-                                    <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
-                                    <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+            <section id="subscribe">
+                <div class="container" data-aos="zoom-in">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <h3 class="text-center section-header">
+                                Here's what people say about us
+                                </h3>
+                            <div class="testimony" data-wow-delay="0.2s">
+                                <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#quote-carousel" data-slide-to="0" class="active">
+                                            <img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                                        </li>
+                                        <li data-target="#quote-carousel" data-slide-to="1">
+                                            <img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/rssems/128.jpg" alt="">
+                                        </li>
+                                        <li data-target="#quote-carousel" data-slide-to="2">
+                                            <img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="">
+                                        </li>
+                                    </ol>
+                                    <div class="carousel-inner text-center">
+                                        <div class="item active">
+                                            <blockquote>
+                                                <div class="row">
+                                                    <div class="col-sm-8 col-sm-offset-2">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. !</p>
+                                                
+                                                        <small>Erik famous</small>
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <div class="item">
+                                            <blockquote>
+                                                <div class="row">
+                                                    <div class="col-sm-8 col-sm-offset-2">
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+                                                
+                                                        <small>Someone famous</small>
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                        <!-- Quote 3 -->
+                                        <div class="item">
+                                            <blockquote>
+                                                <div class="row">
+                                                    <div class="col-sm-8 col-sm-offset-2">
+
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. .</p>
+                                                        <small>Someone famous</small>
+                                                    </div>
+                                                </div>
+                                            </blockquote>
+                                        </div>
+                                    </div>
+                                    <!-- Carousel Buttons Next/Prev -->
+                                    <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+                                    <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
                                 </div>
                             </div>
                         </div>
-                    </div>
                     <div class="col-md-5">
                         <a class="twitter-timeline" href="https:twitter.com/HomiezMusic" data-widget-id="601003530829189120">Favorite Tweets by @HomiezMusic</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
@@ -301,81 +402,90 @@
         </section><!-- End Subscribe Section -->
         
         <!-- ======= Contact Section ======= -->
-        <section id="contact" class="section-bg" style="background: url('../images/herob.jpg') center center no-repeat; background-size: cover;overflow: hidden;position: relative;">
-            <div class="container" data-aos="fade-right">
-                <div class="section-header">
-                    <h2>Contact Us</h2>
-                    <p>you can reach out us through.</p>
-                </div>
-                <div class="row contact-info">
-                    <div class="col-md-5">
-                        <div class="contact-detail">
-
-                            <i class="fa fa-phone"></i>
-                            <h3>Phone Number</h3>
-                            <p><a href="tel:+250789064613">+250 789 064 613</a></p>
-                            
-                            <i class="fa fa-envelope"></i>
-                            <h3>Email</h3>
-                            <p><a href="mailto:info@homiez.rw">info@homiez.rw</a></p>
-                            
-                            <i class="fa fa-map-marker" aria-hidden="true"></i>
-                            <h3>Address</h3>
-                            <address>KIGALI, RWANDA</address>
-                        </div>
+        <section id="contact" class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="section-header text-center">
+                        <h3>Interested to work together? Let's talk</h3>
                     </div>
-                    <div class="col-md-7 contact-form">
-                        @if(Session::has('success'))
-                        <div class="alert alert-success">
-                            {{ Session::get('success') }}
-                            @php
-                            Session::forget('success');
-                            @endphp
+                    <div class="col-md-4">
+                        <div class="contact-box text-center">
+                            <h3>Office</h3>
+                            <address><i class="fa fa-map-marker-alt">&nbsp;</i>KN, Nyarugenge, <br>Kigali, RWANDA</address>
+        					</div><!-- End .contact-box -->
+                		</div><!-- End .col-md-4 -->
+
+                		<div class="col-md-4">
+                			<div class="contact-box text-center">
+        						<h3>Start a Conversation</h3>
+
+        						<div class="contact-address"><a href="mailto:info@homiez.rw"><i class="fa fa-envelope"></i>&nbsp;info@homiez.rw</a></div>
+        						<div class="contact-address"><a href="tel:+250 789-064-613"><i class="fa fa-mobile-alt"></i>&nbsp;+250 789-064-613</a></div>
+        					</div><!-- End .contact-box -->
+                		</div><!-- End .col-md-4 -->
+
+                		<div class="col-md-4">
+                			<div class="contact-box text-center">
+        						<h3>Social</h3>
+
+        						<div class="social-icons social-icons-color justify-content-center">
+			    					<a href="#" class="social-icon social-facebook" title="Facebook" target="_blank"><i class="fa fa-facebook-f"></i></a>
+			    					<a href="#" class="social-icon social-twitter" title="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+			    					<a href="#" class="social-icon social-instagram" title="Instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+			    					<a href="#" class="social-icon social-youtube" title="Youtube" target="_blank"><i class="fa fa-youtube"></i></a>
+			    				</div><!-- End .soial-icons -->
+        					</div><!-- End .contact-box -->
+                		</div><!-- End .col-md-4 -->
+                	</div><!-- End .row -->
+
+                    <div class="touch-container row justify-content-center">
+                        <div class="col-md-6 col-lg-6">
+                            <div class="touch-text text-center">
+                                <h2 class="title mb-1">Get In Touch</h2><!-- End .title mb-2 -->
+                                <p class="lead">
+                                    We collaborate with ambitious brands and people; we’d love to build something great together.
+                                </p><!-- End .lead text-primary -->
+                			</div><!-- End .text-center -->
                         </div>
-                        @endif
-                        <form action="{{ route('index.store') }}" method="POST" role="form" class="php-email-form">
-                            @csrf
-                            <div class="row">
-                                <div class="form-group col-md-6">
-                                    <input type="text" name="names" class="form-control" id="name" placeholder="Your Name" required>
-                                    @if ($errors->has('names'))
-                                    <span class="text-danger">{{ $errors->first('names') }}</span>
-                                    @endif
+                        <div class="col-md-6 col-lg-6">
+                            <form action="#" class="contact-form mb-2">
+                                <div class="row">
+                                    <div class="form-group col-sm-4">
+                                        <label for="cname" class="sr-only">Name</label>
+                						<input type="text" class="form-control" id="cname" placeholder="Name *" required="">
+                					</div><!-- End .col-sm-4 -->
+
+                					<div class="form-group col-sm-4">
+                                        <label for="cemail" class="sr-only">Name</label>
+                						<input type="email" class="form-control" id="cemail" placeholder="Email *" required="">
+                					</div><!-- End .col-sm-4 -->
+
+                					<div class="form-group col-sm-4">
+                                        <label for="cphone" class="sr-only">Phone</label>
+                						<input type="tel" class="form-control" id="cphone" placeholder="Phone">
+                					</div><!-- End .col-sm-4 -->
+                				</div><!-- End .row -->
+                                <div class="form-group">
+                                    <label for="csubject" class="sr-only">Subject</label>
+                                    <input type="text" class="form-control" id="csubject" placeholder="Subject">
                                 </div>
-                                <div class="form-group col-md-6 mt-3 mt-md-0">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                                    @if ($errors->has('email'))
-                                    <span class="text-danger">{{ $errors->first('email') }}</span>
-                                    @endif
+                                <div class="form-group">
+                                    <label for="cmessage" class="sr-only">Message</label>
+                                    <textarea class="form-control" cols="30" rows="4" id="cmessage" required="" placeholder="Message *"></textarea>
                                 </div>
-                            </div>
-                            <div class="row">
-                                <div class="form-group col-md-6 mt-3">
-                                    <input type="text" class="form-control" name="phone" id="phone" placeholder="phone" required>
-                                    @if ($errors->has('phone'))
-                                    <span class="text-danger">{{ $errors->first('phone') }}</span>
-                                    @endif
-                                </div>
-                                <div class="form-group col-md-6 mt-3">
-                                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                                    @if ($errors->has('subject'))
-                                        <span class="text-danger">{{ $errors->first('subject') }}</span>
-                                    @endif
-                                </div>
-                            </div>
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                                @if ($errors->has('message'))
-                                    <span class="text-danger">{{ $errors->first('message') }}</span>
-                                @endif
-                            </div>
-                            <div class="text-center"><button type="submit">Send Message</button></div>
-                        </form>
+								<div class="text-center">
+	                				<button type="submit" class="btn btn-outline-danger btn-minwidth-sm">
+	                					<span>Send message</span>
+	            						<i class="icon-long-arrow-right"></i>
+	                				</button>
+                				</div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- End Contact Section -->
+        <!-- ======= end Contact Section ======= -->
     </main>
     
     <!-- ======= Footer ======= -->
@@ -384,19 +494,21 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 footer-info">
-                        <img src="./images/logo.png" alt="">
+                        <img src="./images/logo.png" alt="" class="text-center">
                     </div>
                     <div class="col-lg-6 col-md-6 footer-links">
-                        <h4>Quick Links</h4>
-                        <div class="quick-links">
-                            <a href="#home"><i class="fa fa-home"></i>Home</a>
-                            <a href="#about"><i class="fa fa-user"></i>About us</a>
-                            <a href="#services"><i class="fa fa-cogs"></i>Services</a>
-                            <a href="#contact"><i class="fa fa-comment"></i>Contact us</a>
-                            <a href="/login"><i class="fa fa-sign-in" aria-hidden="true"></i>Login</a>
+                        <div class="subscribe-head">
+                            <h2>DO you have a project?</h2>
+                            <p>Connect to us and grab something big....</p>
+                            <div class="form-section">
+                            <a href="/booking" type="submit" class="btn btn-outline-danger btn-minwidth-sm">
+	                					<span>Reserve now!</span>
+	            						<i class="fa fa-arrow-right"></i>
+	                				</a href="/booking">
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-md-6 footer-contact">
+                    <div class="text-center col-lg-3 col-md-6 footer-contact">
                         <h4>follow us:</h4>
                         <div class="social-links">
                             <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -434,6 +546,7 @@
     <script type="text/javascript" src="{{ URL::asset('js/main.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> 
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script>
         $(document).ready(function(){
             $('.pic').click(function(){
