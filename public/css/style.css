@@ -1,5 +1,5 @@
 body{
-  background-color: #ebebeb;
+  background-color: #fff;
   color: #101522;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -581,9 +581,10 @@ body{
 # Subscribe Section
 --------------------------------------------------------------*/
 #subscribe {
-  padding: 30px;
+  background-color: #101522;
+  padding-top: 40px;
   
-}
+} 
 
 .social-media{
   margin-top: 20%;
@@ -673,10 +674,90 @@ body{
     margin-top: 10px;
   }
 }
+.testimony_section{
+  padding-top: 20px;
+}
+.testimony_section h3{
+  color: #f82249;
+  font-size: 18px;
+}
+.testimony_section p{
+  font-size: 12px;
+}
+/* Carousel */
 
+#quote-carousel {
+  padding: 10px 10px 10px 10px;
+  margin-top: 30px;
+  /* Control buttons  */
+  /* Previous button  */
+  /* Next button  */
+  /* Changes the position of the indicators */
+  /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+  background: none;
+  color: #CACACA;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* #quote-carousel .carousel-control.left {
+  left: -60px;
+} */
+/* #quote-carousel .carousel-control.right {
+  right: -60px;
+} */
+#quote-carousel .carousel-indicators {
+  right: 50%;
+  top: auto;
+  bottom: 40px;
+  margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+  border: 4px solid #CCC;
+  border-radius: 50px;
+  opacity: 0.4;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+  background: #333333;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border-color: #f33;
+  opacity: 1;
+  overflow: hidden;
+}
+.carousel-inner {
+  min-height: 270px;
+  color: #101522;
+}
+.item blockquote {
+  border-left: none;
+  margin: 0;
+  padding: 10px;
+}
+.item blockquote p:before {
+  content: "\f10d";
+  font-family: 'Fontawesome';
+  float: left;
+  margin-right: 10px;
+}
+.twitter_handle{
+  min-height: 270px;
+}
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.page-content{
+  padding-top: 40px;
+}
 .touch-container{
   padding: 30px;
 }
@@ -1134,69 +1215,6 @@ preloader
   border-radius: 50%;
 }
 
-/* Carousel */
-
-#quote-carousel {
-  padding: 0 10px 30px 10px;
-  margin-top: 30px;
-  /* Control buttons  */
-  /* Previous button  */
-  /* Next button  */
-  /* Changes the position of the indicators */
-  /* Changes the color of the indicators */
-}
-#quote-carousel .carousel-control {
-  background: none;
-  color: #CACACA;
-  font-size: 2.3em;
-  text-shadow: none;
-  margin-top: 30px;
-}
-#quote-carousel .carousel-control.left {
-  left: -60px;
-}
-#quote-carousel .carousel-control.right {
-  right: -60px;
-}
-#quote-carousel .carousel-indicators {
-  right: 50%;
-  top: auto;
-  bottom: 0px;
-  margin-right: -19px;
-}
-#quote-carousel .carousel-indicators li {
-  width: 30px;
-  height: 30px;
-  margin: 5px;
-  cursor: pointer;
-  border: 4px solid #CCC;
-  border-radius: 50px;
-  opacity: 0.4;
-  overflow: hidden;
-  transition: all 0.4s;
-}
-#quote-carousel .carousel-indicators .active {
-  background: #333333;
-  width: 50px;
-  height: 50px;
-  border-radius: 100px;
-  border-color: #f33;
-  opacity: 1;
-  overflow: hidden;
-}
-.carousel-inner {
-  min-height: 300px;
-}
-.item blockquote {
-  border-left: none;
-  margin: 0;
-}
-.item blockquote p:before {
-  content: "\f10d";
-  font-family: 'Fontawesome';
-  float: left;
-  margin-right: 10px;
-}
 
 
 

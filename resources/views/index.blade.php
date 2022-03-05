@@ -331,10 +331,10 @@
             </section>
             <!-- End Gallery Section -->
             <!-- ======= Subscribe Section ======= -->
-            <section id="subscribe">
+            <section id="subscribe" class="service_section">
                 <div class="container" data-aos="zoom-in">
                     <div class="row">
-                        <div class="col-md-7">
+                        <div class="testimony_section col-md-7">
                             <h3 class="text-center section-header">
                                 Here's what people say about us
                                 </h3>
@@ -342,13 +342,13 @@
                                 <div class="carousel slide" data-ride="carousel" id="quote-carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#quote-carousel" data-slide-to="0" class="active">
-                                            <img class="img-responsive " src="https://s3.amazonaws.com/uifaces/faces/twitter/brad_frost/128.jpg" alt="">
+                                            <img class="img-responsive " src="./images/favicon.jpg" alt="">
                                         </li>
                                         <li data-target="#quote-carousel" data-slide-to="1">
-                                            <img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/rssems/128.jpg" alt="">
+                                            <img class="img-responsive" src="./images/4.jpg" alt="">
                                         </li>
                                         <li data-target="#quote-carousel" data-slide-to="2">
-                                            <img class="img-responsive" src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="">
+                                            <img class="img-responsive" src="./images/8.jpg" alt="">
                                         </li>
                                     </ol>
                                     <div class="carousel-inner text-center">
@@ -394,8 +394,10 @@
                             </div>
                         </div>
                     <div class="col-md-5">
+                        <div class="twitter_handle">
                         <a class="twitter-timeline" href="https:twitter.com/HomiezMusic" data-widget-id="601003530829189120">Favorite Tweets by @HomiezMusic</a>
                         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -437,7 +439,7 @@
         					</div><!-- End .contact-box -->
                 		</div><!-- End .col-md-4 -->
                 	</div><!-- End .row -->
-
+                    <hr/>
                     <div class="touch-container row justify-content-center">
                         <div class="col-md-6 col-lg-6">
                             <div class="touch-text text-center">
