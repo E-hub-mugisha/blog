@@ -403,6 +403,17 @@
             </div>
         </section><!-- End Subscribe Section -->
         
+
+        <section id="contact" class="page-content">
+            <div class="container">
+                <div class="row">
+                    <div class="section-header text-center">
+                        <h3>Trusted by:</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- ======= Contact Section ======= -->
         <section id="contact" class="page-content">
             <div class="container">
